@@ -1,0 +1,55 @@
+.loginp {
+    
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: none;
+    border: none;
+    border-radius: 0px;
+  }
+  
+  .loginp form {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 2px;
+  }
+  
+  .loginp label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .loginp input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #95c4aa;
+    border-radius: 3px;
+  }
+  
+  .loginp button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(239, 245, 237);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .loginp button:hover {
+    background-color: #0056b3;
+  }
+
+  .down
+  {
+    align-items: center;
+    margin: 0 auto;
+    width: 350px;
+    padding: 20px;
+    margin-top: 100px;
+   margin-bottom: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px;
+    border-color: black;
+  }
